@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> Howl's Book Store </title>
+        <link rel="stylesheet" href="bookCSS.css">                  <!-- link kang css file -->
+    </head>
+
+    <body background="BookPix/bg1.jpg">
+
+        <div id="headerbox">
+
+            <img id="bckgroundheader" src= BookPix/header2.jpg>
+            <img id="logo" src= BookPix/v_logo2.jpg>
+            <img id="logoH" src= "BookPix/castle.gif">
+            
+           
+        </div>
+
+
+       <div id="buttonDiv">
+            <button class="Button HOMEButton">HOME</button>
+            <button class="Button ABOUTButton">ABOUT</button>
+            <button class="Button CONTACTButton">CONTACT</button>
+            <button class="Button PURCHASEButton"><a href="http://localhost/Final_Project/Purchase.php">PURCHASE</a></button>
+            <button class="Button LOGINButton"><a href="http://localhost/Final_Project/Login.php">LOGIN</a></button>
+        </div>
+
+
+        <div id="leftdesign">
+
+            <p id="bookleft">Books</p>
+
+            <div id="transition">
+                <img class="bottom" src="B_left/book.jpg" />
+                <img class="top" src="B_left/book1.jpg" />
+            </div>
+
+            <div id="transition1">
+                <img class="bottom" src="B_left/book2.jpg" />
+                <img class="top" src="B_left/book3.jpg" />
+            </div>
+            
+            <div id="transition2">
+                <img class="bottom" src="B_left/book4.jpg" />
+                <img class="top" src="B_left/book5.jpg" />
+            </div>
+
+            <p id="pages">Visit our Pages</p>
+            <ul>
+               
+                <li>https://www.fullybookedonline.com/</li>
+                <li>https://www.nationalbookstore.com/</li>
+            </ul>
+        </div>
+
+
+
+        <div id="SlideshowDiv">
+
+            <img class="mySlides radius" src="Slideshow/B1.jpg">
+            <img class="mySlides radius" src="Slideshow/B2.jpg">
+            <img class="mySlides radius" src="Slideshow/B3.jpg">
+            <img class="mySlides radius" src="Slideshow/B4.jpg">
+            <img class="mySlides radius" src="Slideshow/B5.jpg">
+            <img class="mySlides radius" src="Slideshow/B6.jpg">
+            <img class="mySlides radius" src="Slideshow/B7.jpg">
+            <img class="mySlides radius" src="Slideshow/B8.jpg">
+          
+        </div>
+
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel,1800);    
+            }
+        </script>
+
+        <pre id="bundle">           Here's a bundle of books that you can read.
+           They say that "When you open a book, you open 
+           a new world". I believe that everyone would 
+           agree with this statement as books have become 
+           inevitable to mankind. For the majority 
+           of people, books are part of their everyday life. 
+           A book is like a best friend who will never 
+           walk away from you. Books are packed with knowledge, 
+           insights into a happy life, life lessons, love, 
+           fear, prayer and helpful advice. One can read 
+           about anything under the sun. Books have been 
+           here for centuries and without them today's 
+           knowledge of our past ancestors, cultures 
+           and civilizations would have been impossible.
+           So what are you waiting for? buy now!</pre>
+
+        <div id="SlideshowDiv1">
+
+            <img class="mySlides radius" src="Slideshow/S1.jpg">
+            <img class="mySlides radius" src="Slideshow/S2.jpg">
+            <img class="mySlides radius" src="Slideshow/S3.jpg">
+            <img class="mySlides radius" src="Slideshow/S4.jpg">
+            <img class="mySlides radius" src="Slideshow/S5.jpg">
+        </div>
+        
+        <div id="SlideshowDiv2">
+            <img class="mySlides radius" src="Slideshow/S6.jpg">
+            <img class="mySlides radius" src="Slideshow/S7.jpg">
+            <img class="mySlides radius" src="Slideshow/S8.jpg">
+            <img class="mySlides radius" src="Slideshow/S9.jpg">
+            <img class="mySlides radius" src="Slideshow/S10.jpg">
+        </div>
+
+
+        <pre id="Quotes">       Here's a sample quotation from a sample poetry
+        book that you may want to buy.
+        
+        <p id="QFont">        The Universe of Us; 
+"No matter what happens next, 
+  I will always be glad to know 
+       there is someone like 
+           you in the world."</p>
+        
+        <p id="QFont1">             Sea of Strangers;
+  "I know he found you and brought 
+          you out of the darkness. 
+              But don’t forget he
+         put you back there again."
+        </p>
+        
+        <p id="QFont2"> Her
+ “If you aren’t willing to love her, do not put dents on her heart that 
+will influence her to believe that she is hard to love. That is cruel.”
+        </p>
+        </pre>
+        
+        
+        <img class="Footer" src="BookPix/footer1.png">
+
+    </body>
+
+</html>

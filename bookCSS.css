@@ -1,0 +1,296 @@
+#headerbox
+{
+    height:300px;
+    width:1180px;
+    margin-top:-10px;
+    margin-left:40px;
+    border-radius:40px;
+    background-color:white;
+    position:absolute;
+}
+
+#bckgroundheader{
+    border-radius:40px;
+    position: absolute;
+    filter:blur(2px);
+}
+
+#logo{
+
+    width:350px;
+    height:200px;
+    margin-top:50px;
+    margin-left:70px;
+    border-radius:40px;
+    position: absolute;
+}
+#logoH{
+
+    width:350px;
+    height:200px;
+    margin-top:50px;
+    margin-left:810px;
+    border-radius:40px;
+    position:relative;
+}
+
+#buttonDiv
+{
+    height:90px;
+    width:880px;
+    margin-top:300px;
+    margin-left:340px;
+    border-radius:20px;
+    background-color:whitesmoke;
+    position:absolute;
+
+}
+.Button{
+    font-size:20px;
+    font-family:Californian FB;
+    border: none;
+    color: white;
+    padding: 15px 30px 15px;
+    margin: 15px 15px;
+    text-align: center;
+    transition-duration: 0.4s;
+    border-radius: 7px;
+
+}
+
+.HOMEButton {
+   background-color: gray;
+    color: black; 
+}
+
+.HOMEButton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.ABOUTButton {
+    background-color: gray;
+    color: black; 
+}
+
+.ABOUTButton:hover {
+   background-color: #008CBA;
+    color: white;
+}
+
+.CONTACTButton {
+    background-color: gray;
+    color: black; 
+}
+
+.CONTACTButton:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.PURCHASEButton{
+    background-color: gray;
+    color: black; 
+}
+
+.PURCHASEButton:hover {
+    background-color: #ffe64b;
+    color: white;
+}
+
+.LOGINButton {
+    background-color: gray;
+    color: white;
+}
+
+.LOGINButton:hover {
+    background-color: sandybrown;
+    color: white;
+}
+
+
+#leftdesign
+{
+    height:1000px;
+    width:280px;
+    margin-top:300px;
+    margin-bottom:10px;
+    float:left;
+    position: absolute;
+    margin-left:50px;
+    background-color:whitesmoke;
+    border-radius:20px;
+}
+
+#bookleft{
+    font-size:30px;
+    font-family:Californian FB;
+    color:black;
+    padding-left:40px;
+    padding-top: 10px;
+}
+.top,.bottom{
+    border-radius:15px;
+}
+
+#transition {
+    position:absolute;
+    height:200px;
+    width:240px;
+    margin-left:20px;
+    margin-top:20px;
+    border-radius:15px;
+}
+
+#transition  img {
+    position:absolute;
+    left:0;
+    transition: opacity 1s ease-in-out;
+}
+
+#transition  img.top:hover {
+    opacity:0;
+}
+
+#transition1 {
+    position:absolute;
+    height:200px;
+    width:240px;
+    margin-left:20px;
+    margin-top:260px;
+    border-radius:15px;
+}
+
+#transition1  img {
+    position:absolute;
+    left:0;
+    transition: opacity 1s ease-in-out;
+}
+
+#transition1  img.top:hover {
+    opacity:0;
+
+}
+
+#transition2 {
+    position:absolute;
+    height:200px;
+    width:240px;
+    margin-left:20px;
+    margin-top:500px;
+    border-radius:15px;
+}
+
+#transition2  img {
+    position:absolute;
+    left:0;
+    transition: opacity 1s ease-in-out;
+}
+
+#transition2  img.top:hover {
+    opacity:0;
+
+}
+
+#pages{
+    font-size: 20px;
+    font-family:Californian FB;
+    color:black;
+    padding-top:720px;
+    padding-left:50px;
+}
+
+.mySlides{
+    display:none;
+}
+
+#SlideshowDiv{
+    position:absolute;
+    height:350px;
+    width:400px;
+    margin-left:820px;
+    margin-top:420px;
+    border-radius:15px;
+}
+
+.radius{
+    border-radius:15px;
+}
+
+#bundle{
+    font-size:17px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    float:center;
+    color:white;
+    padding-left:300px;
+    padding-top:420px;
+    text-align: justify-all;
+}
+
+#Quotes{
+    font-size:17px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: justify;
+    float:right;
+    color:white;
+    margin-top: -320px;
+    margin-right: -80px;
+}
+
+#QFont {
+    font-size: 15px;
+    text-align: justify;
+    float:right;
+    margin-top: 10px;
+    margin-right: 340px;
+}
+
+#QFont1 {
+    font-size: 15px;
+    text-align: justify;
+    float:right;
+    margin-top: -120px;
+    margin-right: 90px;
+}
+
+#QFont2 {
+    font-size: 15px;
+    text-align: justify;
+    float:right;
+    margin-top: -10px;
+    margin-right: 90px;
+}
+
+#SlideshowDiv1{
+
+    height:300px;
+    width:200px;
+    margin-top:80px;
+    margin-left:360px;
+    border-radius:15px;
+}
+
+#SlideshowDiv2{
+
+    height:300px;
+    width:200px;
+    margin-top:-300px;
+    margin-left:580px;
+    border-radius:15px;
+}
+
+.Footer{
+    height:150px;
+    width:650px;
+    float:center;
+    margin-top:10px;
+    margin-left:490px;
+}
+
+.style {
+    text-align:justify;
+    font-size:20px;
+    text-indent: 5px;
+    padding: 10px;
+}
+
