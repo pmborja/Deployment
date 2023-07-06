@@ -1,1 +1,5 @@
 runtime: php82
+
+handlers:
+- url: .*
+  script: bookHTML.html
